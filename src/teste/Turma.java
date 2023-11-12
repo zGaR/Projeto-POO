@@ -19,14 +19,6 @@ class Turma {
             return false;
         }
     }
-    public void removerAluno(Aluno a) {
-        if (lista.contains(a)) {
-            lista.remove(a);
-        } else {
-            System.out.println("Aluno não encontrado!");
-        }
-    }
-
     public ArrayList<Aluno> getLista() {
         return lista;
     }
